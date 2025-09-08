@@ -31,3 +31,8 @@ Pre-commit is configured to use the following tools for checking and formatting 
 ### License
 
 mit
+
+After installing -> Go to Barcode Preview List.
+And add a barcode preview, enter item name and price.
+It will generate a EAN-13 barcode.
+
