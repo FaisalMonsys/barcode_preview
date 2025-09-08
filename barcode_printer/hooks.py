@@ -5,6 +5,31 @@ app_description = "Testing barcode"
 app_email = "faisal@gmail.com"
 app_license = "mit"
 
+
+app_include_js = [
+    "https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"
+]
+
+
+# exports doc and scripts---------
+
+fixtures = [
+    # Export the Barcode Preview DocType
+    {
+        "dt": "DocType",
+        "filters": [
+            ["name", "=", "Barcode Preview"]
+        ]
+    },
+    # Export the Client Script for Barcode Preview
+    {
+        "dt": "Client Script",
+        "filters": [
+            ["name", "=", "print+generate"]
+        ]
+    }
+]
+
 # Apps
 # ------------------
 
